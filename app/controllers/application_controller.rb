@@ -14,5 +14,5 @@ class ApplicationController < ActionController::Base
 
   def logged_in?
     redirect_to login_path if !session[:name]
-  en
+  end
 end
